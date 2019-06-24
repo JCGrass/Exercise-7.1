@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My API Practice</title>
+  </head>
+  <body>
+    <div id="main">
+      Request data
+    </div>
+  </body>
+
+<script>
+
+function musixmatchResults(json){
+
+  var myDiv = document.getElementById("main");
+
+  myDiv.innerHTML = "<img src= '" + json.items [0].media.m + "' />" ;
+
+  console.log(json);}
+</script>
+
+<script
+
+src='artist.search?q_artist=prodigy&page_size=5=6725c7fb2742096086c1f075a3ca3ae9'>
+</script>
+
+
+</html>
